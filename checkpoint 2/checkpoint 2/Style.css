@@ -1,0 +1,67 @@
+                 /*the header*/
+header{ background-color: rgb(229, 233, 233);}
+header img, header h1, header nav{display:inline-block;
+}
+header img{
+    position:relative; top:10px;
+    height: 40px;
+    width:40px;}
+    /*the navigation bar*/
+    header nav a{
+        position: relative;
+        left: 700px;
+        font: bold 23px "roboto"  ;
+        color:black;
+        margin-right: 15px;
+        text-decoration: none;  
+    }
+
+
+                              /* the main part */
+/*separate the sections*/
+section{
+    background-color: rgb(233, 231, 231);
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+                             /*home section...centrer*/
+.home{
+    text-align: center;
+}
+
+
+                               /*about us section*/
+
+/*organise the elemets of the about us section*/
+.box{
+    display:inline-block;  
+    width: 350;                
+    height: 300px; 
+    margin-right: 50px; /*the space between the elements*/
+}
+
+/* caracterize the list */
+.box ul{
+    position: relative;
+    bottom:80px;
+    border-style: solid;
+    text-align: left;
+    font:bold 23px "roboto"; 
+    line-height: 60px;
+    padding-bottom: 55;
+}
+/*contact section*/
+.form input {
+    display:block;
+    width: 200px;
+  
+}
+/*social media links*/
+footer ul a{
+    display: inline-block;
+    padding-right: 100px;
+    font-size: 20px;
+    padding-top: 50;
+}
